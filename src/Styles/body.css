@@ -1,0 +1,62 @@
+.Body{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.SearchResults{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.VideoResult{
+    display: flex;
+    flex-direction: row;
+    width: 97vw;
+    min-height: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: rgb(87,87,87);
+    align-self: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.VideoImage{
+    object-fit: cover;
+    width: 100px;
+    height: 80px;
+}
+
+.VideoTitle{
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.VideoDescription{
+    margin-left: 10px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: whitesmoke;
+}
+
+.VideoWindow{
+    margin: 10px;
+    margin-left: 30%;
+    display: flex;
+    align-content: center;
+    align-self: center;
+}
