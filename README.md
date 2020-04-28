@@ -3,6 +3,6 @@
 
 Open terminal in proyect directory
 
-Use ```npm install```
+Use ```npm install``` in order to install the application properly
 
-Finally use ```npm start``` to run the code
+Finally use ```npm start``` to run the application
